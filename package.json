@@ -45,7 +45,8 @@
     "@stdlib/complex-imag": "^0.2.0",
     "@stdlib/complex-real": "^0.2.0",
     "@stdlib/strided-base-reinterpret-complex": "github:stdlib-js/strided-base-reinterpret-complex#main",
-    "@stdlib/types": "^0.3.2"
+    "@stdlib/types": "^0.3.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/array-base-ones": "^0.2.0",
