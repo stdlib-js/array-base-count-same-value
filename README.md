@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@deno/mod.js';
+import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@v0.1.1-deno/mod.js';
 ```
 
 #### countSameValue( x, value )
@@ -88,7 +88,7 @@ var out = countSameValue( x, 1 );
 
 ```javascript
 import sample from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-sample@deno/mod.js';
-import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@deno/mod.js';
+import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@v0.1.1-deno/mod.js';
 
 var x = sample( [ 1, 2, 3, 4, 5 ] );
 console.log( x );
