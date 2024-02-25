@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@esm/index.mjs';
+import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@v0.1.1-esm/index.mjs';
 ```
 
 #### countSameValue( x, value )
@@ -93,7 +93,7 @@ var out = countSameValue( x, 1 );
 <script type="module">
 
 import sample from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-sample@esm/index.mjs';
-import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@esm/index.mjs';
+import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@v0.1.1-esm/index.mjs';
 
 var x = sample( [ 1, 2, 3, 4, 5 ] );
 console.log( x );
