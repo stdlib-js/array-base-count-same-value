@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-count-same-value/tags). For example,
+
+```javascript
 import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@v0.1.1-deno/mod.js';
 ```
 
@@ -88,7 +93,7 @@ var out = countSameValue( x, 1 );
 
 ```javascript
 import sample from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-sample@deno/mod.js';
-import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@v0.1.1-deno/mod.js';
+import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@deno/mod.js';
 
 var x = sample( [ 1, 2, 3, 4, 5 ] );
 console.log( x );
