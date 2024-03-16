@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,15 +16,28 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-var bernoulli = require( '@stdlib/random-array-bernoulli' );
-var countSameValue = require( './../lib' );
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var x = bernoulli( 10, 0.5, {
-	'dtype': 'generic'
-});
-console.log( x );
+import { Collection } from '@stdlib/types/array';
 
-var n = countSameValue( x, 1 );
-console.log( n );
+/**
+* Counts the number of elements in an array that are equal to a specified value.
+*
+* @param x - input array
+* @param value - search value
+* @returns number of elements that are equal to a specified value
+*
+* @example
+* var x = [ 0, 1, 0, 1, 1 ];
+*
+* var out = countSameValue( x, 1 );
+* // returns 3
+*/
+declare function countSameValue( x: Collection, value: any ): number;
+
+
+// EXPORTS //
+
+export = countSameValue;
