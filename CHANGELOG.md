@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`32bbcb3`](https://github.com/stdlib-js/stdlib/commit/32bbcb3b3dae1f028fd18166ee7875a93d44d0ee) - **refactor:** update paths _(by Athan Reines)_
 -   [`ed9c0a5`](https://github.com/stdlib-js/stdlib/commit/ed9c0a5e55ff09af3dd6af8c38615480e2c1828e) - **refactor:** update paths _(by Athan Reines)_
 -   [`fd396b3`](https://github.com/stdlib-js/stdlib/commit/fd396b360cbca9c4c000d3f33eed5dfc18de6d6b) - **feat:** add boolean dtype support to `array/base/count-same-value` [(#2473)](https://github.com/stdlib-js/stdlib/pull/2473) _(by Jaysukh Makvana, Athan Reines)_
 -   [`75d4f83`](https://github.com/stdlib-js/stdlib/commit/75d4f83cb85610d23a04dc21a03f8075f6d3665f) - **refactor:** update require and include paths _(by Athan Reines)_
