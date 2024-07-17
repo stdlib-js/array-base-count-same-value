@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-29)
+## Unreleased (2024-07-17)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`ed9c0a5`](https://github.com/stdlib-js/stdlib/commit/ed9c0a5e55ff09af3dd6af8c38615480e2c1828e) - **refactor:** update paths _(by Athan Reines)_
 -   [`fd396b3`](https://github.com/stdlib-js/stdlib/commit/fd396b360cbca9c4c000d3f33eed5dfc18de6d6b) - **feat:** add boolean dtype support to `array/base/count-same-value` [(#2473)](https://github.com/stdlib-js/stdlib/pull/2473) _(by Jaysukh Makvana, Athan Reines)_
 -   [`75d4f83`](https://github.com/stdlib-js/stdlib/commit/75d4f83cb85610d23a04dc21a03f8075f6d3665f) - **refactor:** update require and include paths _(by Athan Reines)_
 -   [`e3eff9b`](https://github.com/stdlib-js/stdlib/commit/e3eff9b1c12541182496f56e816fc7c55911a00e) - **docs:** add same value example _(by Athan Reines)_
