@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@deno/mod.js';
+import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@v0.2.2-deno/mod.js';
 ```
 
 #### countSameValue( x, value )
@@ -101,7 +101,7 @@ var out = countSameValue( x, NaN );
 
 ```javascript
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@deno/mod.js';
+import countSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-same-value@v0.2.2-deno/mod.js';
 
 var x = bernoulli( 10, 0.5, {
     'dtype': 'generic'
